@@ -2,7 +2,7 @@
 * {
   margin: 0;
   font-family: 'Cabin', sans-serif;
-  color: rgba(37, 35, 37, 0.993);
+  color: rgba(5, 2, 48, 0.993);
 }
 /*navbar styles*/
 .navbar {
@@ -44,7 +44,58 @@
 .blog-preview:hover{
   box-shadow:1px 3px 1px 3px rgba(0, 0, 0, 0.089);
 }
+.blog-preview .blog-link{
+  text-decoration: none;
+}
+.blog-preview h2{
+  font-weight: 600;
+}
 .blog-preview p {
   color:#28FE9D ;
   font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/*blog details page*/
+.blog-details h2 {
+  color:#28FE9D ;
+  margin-bottom: 10px;
+}
+.blog-details p{
+  font-weight: bold;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+/*add blog*/
+.create {
+  max-width: 50%;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #28FE9D;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #28FE9D;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
