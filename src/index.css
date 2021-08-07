@@ -1,13 +1,50 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cabin', sans-serif;
+  color: rgba(37, 35, 37, 0.993);
+}
+/*navbar styles*/
+.navbar {
+  display: flex;
+  padding: 2%;
+  align-items: center;
+  max-width: 50%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(231, 228, 200);
+}
+.navbar h1 {
+  color:#28FE9D;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  font-size: 18px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: #28FE9D;
+}
+.container {
+  max-width: 50%;
+  padding: 3%;
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*blogs list styles*/
+.blog-preview {
+  max-width: 50em;
+  padding: 2%;
+  border-bottom: 1px solid rgb(231, 228, 200);
+}
+.blog-preview:hover{
+  box-shadow:1px 3px 1px 3px rgba(0, 0, 0, 0.089);
+}
+.blog-preview p {
+  color:#28FE9D ;
+  font-weight: bold;
 }
