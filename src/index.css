@@ -68,6 +68,14 @@
 .blog-details div{
   margin: 20px 0;
 }
+.blog-details button {
+  background: #28FE9D;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 /*add blog*/
 .create {
   max-width: 50%;
