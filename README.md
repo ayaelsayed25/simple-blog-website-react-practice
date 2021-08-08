@@ -1,3 +1,8 @@
+# Simple Blog Website
+A website for writing and reading blogs.
+![alt text](https://github.com/ayaelsayed25/simple-blog-website-react-practice/blob/master/Screenshot%20(48).png)
+![alt text](https://github.com/ayaelsayed25/simple-blog-website-react-practice/blob/master/Screenshot%20(51).png)
+![alt text](https://github.com/ayaelsayed25/simple-blog-website-react-practice/blob/master/Screenshot%20(50).png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
